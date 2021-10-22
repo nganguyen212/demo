@@ -18,3 +18,22 @@ C:\Users\Thuong Nguyen\Desktop\tnt-news\Models\bin\Debug\System.Security.Princip
 C:\Users\Thuong Nguyen\Desktop\tnt-news\Models\obj\Debug\Models.csproj.CopyComplete
 C:\Users\Thuong Nguyen\Desktop\tnt-news\Models\obj\Debug\Models.dll
 C:\Users\Thuong Nguyen\Desktop\tnt-news\Models\obj\Debug\Models.pdb
+C:\Users\Administrator\Desktop\tnt\tnt-news\Models\bin\Debug\Models.dll.config
+C:\Users\Administrator\Desktop\tnt\tnt-news\Models\bin\Debug\Models.dll
+C:\Users\Administrator\Desktop\tnt\tnt-news\Models\bin\Debug\Models.pdb
+C:\Users\Administrator\Desktop\tnt\tnt-news\Models\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\tnt\tnt-news\Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\tnt\tnt-news\Models\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Administrator\Desktop\tnt\tnt-news\Models\bin\Debug\System.Security.AccessControl.dll
+C:\Users\Administrator\Desktop\tnt\tnt-news\Models\bin\Debug\System.Security.Permissions.dll
+C:\Users\Administrator\Desktop\tnt\tnt-news\Models\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Administrator\Desktop\tnt\tnt-news\Models\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\tnt\tnt-news\Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\tnt\tnt-news\Models\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Administrator\Desktop\tnt\tnt-news\Models\bin\Debug\System.Security.AccessControl.xml
+C:\Users\Administrator\Desktop\tnt\tnt-news\Models\bin\Debug\System.Security.Permissions.xml
+C:\Users\Administrator\Desktop\tnt\tnt-news\Models\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Administrator\Desktop\tnt\tnt-news\Models\obj\Debug\Models.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\tnt\tnt-news\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\tnt\tnt-news\Models\obj\Debug\Models.dll
+C:\Users\Administrator\Desktop\tnt\tnt-news\Models\obj\Debug\Models.pdb
