@@ -18,16 +18,15 @@ namespace tntnews.Areas.Admin.Controllers
             return View(model);
            
         }
+        // Andmin/post/CreatePost
+        [HttpGet]
         public ActionResult CreatePost()
         {
+            SetViewBag();
             return View();
         }
-        public ActionResult HienThiPost()
-        {
-            var post = new PostDb();
-            var model = post.GetPosts();
-            return View(model);
-        }
+       [HttpPost]
+       [ValidateAntiForgeryToken]
         public ActionResult CreatePost(post model)
         {
             if (ModelState.IsValid)
@@ -36,6 +35,11 @@ namespace tntnews.Areas.Admin.Controllers
                 var po = new post();
 
                 po.title = model.title;
+                po.category = model.category;
+                po.description = model.description;
+                po.created_at = DateTime.Now;
+                po.publish_state = false;
+                po.img = model.img;
 
                 if (po != null)
                 {
@@ -50,24 +54,45 @@ namespace tntnews.Areas.Admin.Controllers
             }
             return View();
         }
-        public ActionResult UpdatePost()
+        [HttpGet]
+        public ActionResult UpdatePost(int id)
         {
-
-
-            return View();
+            SetViewBag();
+            var dao = new PostDb().GetPostById(id);
+            return View(dao);
         }
+        [HttpPost]
         public ActionResult UpdatePost(post model)
         {
             if (ModelState.IsValid)
             {
                 var dao = new PostDb();
+                var result = dao.UpdatePost(model);
+                if (result ==true) {
 
+                    return RedirectToAction("Index","Post");
+                }
             }
             else
             {
                 ModelState.AddModelError("", "Cập nhật không thành công");
             }
             return View();
+        }
+        public ActionResult Delete(int id)
+        {
+            var dao = new PostDb().DeleteById(id);
+            if (dao)
+            {
+                return RedirectToAction("Index", "Post");
+            }
+            return View();
+
+        }
+        public void SetViewBag(long? selectedId = null)
+        {
+            var dao = new CateDb();
+            ViewBag.Category = new SelectList(dao.ListCategory(), "id", "name",selectedId);
         }
 
     }

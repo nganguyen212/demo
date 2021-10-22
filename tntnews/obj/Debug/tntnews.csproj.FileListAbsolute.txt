@@ -161,4 +161,5 @@ C:\Users\Administrator\Desktop\tnt\tnt-news\tntnews\bin\System.Web.Helpers.xml
 C:\Users\Administrator\Desktop\tnt\tnt-news\tntnews\bin\System.Web.Mvc.xml
 C:\Users\Administrator\Desktop\tnt\tnt-news\tntnews\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Administrator\Desktop\tnt\tnt-news\tntnews\bin\EntityFramework.xml
-C:\Users\Administrator\Desktop\tnt\tnt-news\tntnews\obj\Debug\tntnews.csproj.CopyComplete
+C:\Users\Administrator\Desktop\tnt\tnt-news\tntnews\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\tnt\tnt-news\tntnews\bin\EntityFramework.SqlServer.xml

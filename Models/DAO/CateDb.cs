@@ -7,9 +7,18 @@ using System.Threading.Tasks;
 
 namespace Models.DAO
 {
-    class CateDb
+    public class CateDb
     {
         DtbContext context = null;
+
+        public CateDb()
+        {
+            context = new DtbContext();
+        }
+        public List<category> ListCategory()
+        {
+            return context.categories.OrderByDescending(x => x.name).ToList();
+       }
 
     }
 }

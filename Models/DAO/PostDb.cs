@@ -28,6 +28,10 @@ namespace Models.DAO
 
             }
         }
+        public post GetPostById(int id)
+        {
+            return context.posts.Where(x => x.id == id).FirstOrDefault();
+        }
         public bool UpdatePost(post po)
         {
             try
@@ -36,6 +40,7 @@ namespace Models.DAO
                 var p = context.posts.Find(po.id);
                 p.title=po.title;
                 p.description = po.description;
+                p.category = po.category;
                 p.publish_state = false;
                 context.SaveChanges();
                 return true;
@@ -46,6 +51,15 @@ namespace Models.DAO
 
                 return false;
             }
+        }
+
+        public bool DeleteById(int id)
+        {
+            var result = context.posts.Find(id);
+            context.posts.Remove(result);
+            context.SaveChanges();
+            return true;
+
         }
     }
 }

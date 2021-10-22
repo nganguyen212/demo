@@ -33,7 +33,6 @@ C:\Users\Administrator\Desktop\tnt\tnt-news\Models\bin\Debug\System.Configuratio
 C:\Users\Administrator\Desktop\tnt\tnt-news\Models\bin\Debug\System.Security.AccessControl.xml
 C:\Users\Administrator\Desktop\tnt\tnt-news\Models\bin\Debug\System.Security.Permissions.xml
 C:\Users\Administrator\Desktop\tnt\tnt-news\Models\bin\Debug\System.Security.Principal.Windows.xml
-C:\Users\Administrator\Desktop\tnt\tnt-news\Models\obj\Debug\Models.csproj.AssemblyReference.cache
 C:\Users\Administrator\Desktop\tnt\tnt-news\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Desktop\tnt\tnt-news\Models\obj\Debug\Models.dll
 C:\Users\Administrator\Desktop\tnt\tnt-news\Models\obj\Debug\Models.pdb
